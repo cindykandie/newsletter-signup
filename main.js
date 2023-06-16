@@ -20,9 +20,30 @@ function validateEmail() {
     } 
     else {
       errorSpan.style.display = 'flex';
+      email.classList.add('email-fail');
+
     }
   }
   function dismissMessage() {
     mainPage.style.display = 'flex';
     successPage.style.display = 'none';
   }
+
+  // Function to handle changing the image source
+function changeImageSource() {
+    const imgElement = document.getElementById('illustration-img');
+    const mediaQuery = window.matchMedia('(min-width: 601px)');
+  
+    if (mediaQuery.matches) {
+      imgElement.src = './assets/images/illustration.svg';
+    } else {
+      imgElement.src = './assets/images/illustration-sign-up-mobile.svg';
+    }
+  }
+  
+  // Call the function initially
+  changeImageSource();
+  
+  // Add an event listener to recheck the media query on window resize
+  window.addEventListener('resize', changeImageSource);
+  

@@ -12,10 +12,9 @@
 </head>
 <body>
   <section class="main-page">
-      <picture>
-        <img src="./assets/images/illustration-sign-up-mobile.svg" alt="
-        Illustration image">
-      </picture>
+    <picture>
+      <img id="illustration-img" src="./assets/images/illustration-sign-up-mobile.svg" alt="Illustration image">
+    </picture>
     <div class="info-section">
       <h1>Stay updated!</h1>
       <p>Join 60,000+ product managers receiving monthly updates on:
@@ -37,7 +36,7 @@
           <label for="email">Email address</label>
           <span id="email-error">Valid Email Required</span>
         </div>
-        <input type="email" id="email" placeholder="email@company.com">
+        <input type="email" id="email" class='email-fail' placeholder="email@company.com">
         <input type="button" value="Subscribe to monthly newsletter" onclick="validateEmail()">
       </form>
     </div>
@@ -49,6 +48,7 @@
     <p>A confirmation email has been sent to <span class="success-email" style="font-weight: 700">ash@loremcompany.com</span>  Please open it and click the button inside to confirm your subscription.</p>
     <button onclick="dismissMessage()"> Dismiss message</button>
   </section>
+
   <script src="main.js"></script>
 
 </body>
