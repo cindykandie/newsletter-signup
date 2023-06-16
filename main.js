@@ -20,7 +20,7 @@ function validateEmail() {
     } 
     else {
       errorSpan.style.display = 'flex';
-      email.classList.add('email-fail');
+      emailInput.classList.add('email-fail');
 
     }
   }
