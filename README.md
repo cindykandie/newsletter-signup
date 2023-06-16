@@ -37,7 +37,7 @@ I learnt how to validate the email
 
 ## Author
 
-- Website - [Newsletter Confirmation]https://newsletter-msg.netlify.app/
+- Website - [Newsletter Confirmation](https://newsletter-msg.netlify.app/)
 - Frontend Mentor - [@cindykandie](https://www.frontendmentor.io/profile/cindykandie)
 - Twitter - [@cindykandie](https://www.twitter.com/cindy_kandie)
 
