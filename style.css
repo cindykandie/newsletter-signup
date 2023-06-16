@@ -1,0 +1,7 @@
+:root{
+    --RedShade: hsl(4, 100%, 67%);
+    --DarkSlateGrey: hsl(234, 29%, 20%);
+    --CharcoalGrey: hsl(235, 18%, 26%);
+    --GreyShade: hsl(231, 7%, 60%);
+    --WhiteShade: hsl(0, 0%, 100%);
+}
